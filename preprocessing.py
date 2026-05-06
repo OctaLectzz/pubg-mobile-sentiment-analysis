@@ -1,5 +1,6 @@
 """
 Text Preprocessing Pipeline untuk Analisis Sentimen Bahasa Indonesia.
+Includes negation handling, character normalization, and configurable stopwords.
 """
 import os, re, json
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
@@ -22,6 +23,18 @@ if os.path.exists(STOPWORD_PATH):
 else:
     STOPWORDS = set()
 
+# Sentiment-bearing words that should NOT be removed as stopwords
+# These are crucial for accurate sentiment classification
+KEEP_WORDS = {
+    "tidak", "bukan", "jangan", "belum", "tanpa", "kurang",
+    "sangat", "sekali", "banget", "paling", "lebih", "terlalu",
+    "bagus", "jelek", "buruk", "baik", "seru", "bosan",
+    "suka", "benci", "senang", "kecewa", "puas", "marah",
+}
+
+# Negation words for bigram handling
+NEGATION_WORDS = {"tidak", "bukan", "jangan", "belum", "tanpa", "kurang", "tak", "tiada"}
+
 # Stemmer (singleton)
 _stemmer = None
 def get_stemmer():
@@ -35,6 +48,14 @@ def get_stemmer():
 def case_folding(text):
     """Ubah ke lowercase."""
     return str(text).lower().strip()
+
+
+def normalize_repeated_chars(text):
+    """
+    Normalize repeated characters: 'baguuuus' -> 'bagus', 'seruuuu' -> 'seru'.
+    Keeps max 2 consecutive identical characters.
+    """
+    return re.sub(r"(.)\1{2,}", r"\1\1", text)
 
 
 def clean_text(text):
@@ -66,31 +87,69 @@ def normalize_slang(text):
     return " ".join(normalized)
 
 
-def remove_stopwords(text):
-    """Hapus stopwords bahasa Indonesia."""
+def handle_negation(text):
+    """
+    Handle negation by combining negation word with the next word.
+    'tidak bagus' -> 'tidak_bagus'
+    This preserves negation context for the classifier.
+    """
     words = text.split()
-    filtered = [w for w in words if w not in STOPWORDS and len(w) > 1]
+    result = []
+    i = 0
+    while i < len(words):
+        if words[i] in NEGATION_WORDS and i + 1 < len(words):
+            result.append(f"{words[i]}_{words[i + 1]}")
+            i += 2
+        else:
+            result.append(words[i])
+            i += 1
+    return " ".join(result)
+
+
+def remove_stopwords(text):
+    """
+    Hapus stopwords bahasa Indonesia.
+    Keeps sentiment-bearing words that are important for classification.
+    """
+    words = text.split()
+    filtered = [
+        w for w in words
+        if (w not in STOPWORDS or w in KEEP_WORDS or "_" in w) and len(w) > 1
+    ]
     return " ".join(filtered)
 
 
 def stem_text(text):
-    """Stemming menggunakan Sastrawi."""
+    """Stemming menggunakan Sastrawi. Skips negation bigrams."""
     stemmer = get_stemmer()
-    return stemmer.stem(text)
+    words = text.split()
+    stemmed = []
+    for w in words:
+        if "_" in w:
+            # Negation bigram: stem each part separately
+            parts = w.split("_")
+            stemmed.append("_".join(stemmer.stem(p) for p in parts))
+        else:
+            stemmed.append(stemmer.stem(w))
+    return " ".join(stemmed)
 
 
 def preprocess(text, use_stemming=True):
     """
     Pipeline preprocessing lengkap.
     1. Case folding
-    2. Cleaning
-    3. Normalisasi slang
-    4. Stopword removal
-    5. Stemming (opsional)
+    2. Repeated char normalization
+    3. Cleaning (URL, emoji, etc.)
+    4. Normalisasi slang
+    5. Negation handling
+    6. Stopword removal (keeps sentiment words)
+    7. Stemming (opsional)
     """
     text = case_folding(text)
+    text = normalize_repeated_chars(text)
     text = clean_text(text)
     text = normalize_slang(text)
+    text = handle_negation(text)
     text = remove_stopwords(text)
     if use_stemming:
         text = stem_text(text)
@@ -123,6 +182,8 @@ if __name__ == "__main__":
         "Game ini bagus bgt!! Grafisnya keren 😍😍 #PUBG @pubgmobile",
         "Gak bisa login udh 3 hari, server down terus 😡",
         "Lumayan lah buat ngisi waktu, tp agak lag di HP kentang",
+        "Game ini tidak bagus, sangat mengecewakan!",
+        "Baguuuuus banget gamenya seruuuu!",
     ]
     for t in test_texts:
         print(f"Original : {t}")

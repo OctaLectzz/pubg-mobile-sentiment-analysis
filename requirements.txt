@@ -8,3 +8,5 @@ wordcloud
 PySastrawi
 plotly
 openpyxl
+fpdf2
+requests

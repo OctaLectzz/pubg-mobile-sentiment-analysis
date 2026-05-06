@@ -1,0 +1,211 @@
+# PUBG Mobile Sentiment Analysis — Major Enhancement
+
+Comprehensive overhaul of the dashboard covering UX, model accuracy, multi-language support, export, scraper improvements, and code structure.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Multi-language scope**: The plan implements EN/ID language toggle for the UI labels only. The NLP preprocessing (stemming, slang normalization, stopwords) will remain Indonesian-focused since the reviews are in Bahasa Indonesia. Should we also add English NLP preprocessing for English reviews?
+
+> [!WARNING]
+> **PDF export** requires an additional dependency (`fpdf2`). This will be added to `requirements.txt`.
+
+## Proposed Changes
+
+### 1. New File Structure
+
+Current flat structure → organized into modules:
+
+```
+├── app.py                  # Main dashboard (refactored)
+├── config/
+│   └── languages.py        # [NEW] EN/ID translation dictionaries
+├── scraper.py              # Enhanced scraper
+├── preprocessing.py        # Improved preprocessing
+├── model.py                # Improved model
+├── utils/
+│   └── export.py           # [NEW] CSV/PDF export utilities
+├── data/
+│   ├── slang_dict.json     # Expanded slang dictionary
+│   ├── stopwords_id.txt
+│   └── reviews_pubg.csv
+├── models/
+├── requirements.txt        # Updated
+└── README.md
+```
+
+---
+
+### 2. Disable Buttons During Processing (Item #1)
+
+#### [MODIFY] [app.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/app.py)
+
+- Add `st.session_state.is_processing = False` to session state init
+- Set it to `True` at the start of training/scraping, `False` at end
+- Use `disabled=st.session_state.is_processing` on all buttons (`btn_train`, `btn_compare`, scrape button, predict button)
+
+---
+
+### 3. Light Mode Support for Sidebar (Item #3)
+
+#### [MODIFY] [app.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/app.py)
+
+- Replace hardcoded dark-only CSS with CSS that uses `@media (prefers-color-scheme)` and Streamlit's built-in `[data-theme]` attribute
+- Metric cards, sidebar, hero banner, badges all adapt to light/dark
+- Use CSS variables for colors so light mode gets proper contrast
+- Remove forced dark sidebar background
+
+---
+
+### 4. Better UI/UX (Item #4)
+
+#### [MODIFY] [app.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/app.py)
+
+- Animated gradient hero banner with subtle pulse
+- Add `st.progress` bar during training showing steps
+- Better tab icons and layout spacing
+- Smooth card hover effects
+- Use `st.columns` with gap for cleaner grid
+- Add "empty state" illustrations (text-based) instead of plain `st.info`
+- Plotly charts: use `template="plotly_dark"` for dark mode, `"plotly_white"` for light
+
+---
+
+### 5. Multi-Language UI (Item #5)
+
+#### [NEW] [languages.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/config/languages.py)
+
+- Dictionary with keys for every UI string (sidebar labels, tab names, buttons, messages, etc.)
+- Two language packs: `en` (default) and `id`
+
+#### [MODIFY] [app.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/app.py)
+
+- Add language selector in sidebar (top)
+- Store in `st.session_state.lang`
+- Replace all hardcoded strings with `t["key"]` lookups
+- Sentiment labels remain `Positif/Netral/Negatif` regardless (they are data labels)
+
+---
+
+### 6. Export to CSV and PDF (Item #6)
+
+#### [NEW] [export.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/utils/export.py)
+
+- `export_csv(df)` → returns CSV bytes for `st.download_button`
+- `export_pdf(df, model_result)` → generates PDF report with:
+  - Summary statistics
+  - Sentiment distribution table
+  - Model metrics (accuracy, precision, recall, F1)
+  - Uses `fpdf2` library
+
+#### [MODIFY] [app.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/app.py)
+
+- Add export buttons in Tab 1 (data) and Tab 3 (model evaluation)
+- `st.download_button` for CSV and PDF
+
+#### [MODIFY] [requirements.txt](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/requirements.txt)
+
+- Add `fpdf2` and `requests`
+
+---
+
+### 7. Scraper Country Dropdown with Multi-Select (Item #7)
+
+#### [MODIFY] [scraper.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/scraper.py)
+
+- Add `COUNTRY_OPTIONS` dict mapping display names to codes:
+  ```python
+  COUNTRY_OPTIONS = {
+      "🇮🇩 Indonesia": "id", "🇺🇸 United States": "us", "🇬🇧 United Kingdom": "gb",
+      "🇯🇵 Japan": "jp", "🇰🇷 South Korea": "kr", "🇦🇺 Australia": "au",
+      "🇮🇳 India": "in", "🇸🇬 Singapore": "sg", "🇲🇾 Malaysia": "my",
+      "🇵🇭 Philippines": "ph", "🇹🇭 Thailand": "th", "🇧🇷 Brazil": "br",
+      "🇩🇪 Germany": "de", "🇫🇷 France": "fr", "🇷🇺 Russia": "ru",
+  }
+  ```
+- Add `scrape_multiple_countries(countries, how_many_per_country)` function
+- Merges results and adds `country` column
+
+#### [MODIFY] [app.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/app.py)
+
+- Replace text input with `st.multiselect` dropdown using `COUNTRY_OPTIONS`
+- Add "Select All" checkbox to select all countries
+- Show scraping progress per country
+
+---
+
+### 8. Code Structure Cleanup (Item #8)
+
+- Separate CSS into a helper function `inject_css()` within app.py  
+- Group session state initialization into a function `init_session_state()`
+- Extract sidebar logic into a function `render_sidebar()`
+- Keep all files well-commented with docstrings
+- Create `config/` and `utils/` directories for new modules
+
+---
+
+### 9. Improve Model Accuracy (Item #9)
+
+#### [MODIFY] [model.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/model.py)
+
+Current issues: only 60 sample reviews, default alpha=1.0, no hyperparameter tuning.
+
+Changes:
+- Add `GridSearchCV` to tune `alpha` parameter (0.01, 0.1, 0.5, 1.0, 2.0)
+- Use `class_weight` balancing via oversampling (duplicate minority class samples)
+- Increase `max_features` from 10,000 to 50,000
+- Add `min_df=2` to filter noise
+- Use `ComplementNB` as alternative (better for imbalanced data)
+- Store best parameters in result dict
+
+#### [MODIFY] [scraper.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/scraper.py)
+
+- Expand sample data from 60 to 150+ reviews for better training
+- More diverse vocabulary and sentence structures
+- Better class balance (equal positive/neutral/negative)
+
+#### [MODIFY] [preprocessing.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/preprocessing.py)
+
+- Expand slang dictionary with more gaming-specific terms
+- Add repeated character normalization (e.g., "baguuuus" → "bagus")
+- Add negation handling ("tidak bagus" → "tidak_bagus") to preserve negation context
+
+---
+
+### 10. Fix Prediction Accuracy (Item #10)
+
+#### [MODIFY] [model.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/model.py)
+
+Root cause: The `predict_text` function receives already-preprocessed text, but the preprocessing may strip too many meaningful words, and the model trained on small data can't generalize.
+
+Fixes:
+- Ensure prediction pipeline matches training pipeline exactly
+- Add `predict_raw_text(raw_text, model, vectorizer, use_stemming)` that does preprocessing + prediction in one step
+- This avoids mismatches between training preprocessing and prediction preprocessing
+
+#### [MODIFY] [preprocessing.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/preprocessing.py)
+
+- Be less aggressive with stopword removal — keep sentiment-bearing stopwords like "tidak", "bukan", "jangan"
+- Add negation bigram handling so "tidak bagus" becomes "tidak_bagus" (a single token the model can learn)
+
+#### [MODIFY] [app.py](file:///c:/Experience/octalectzz/analisis-sentimen-pubg-mobile/app.py)
+
+- Use `predict_raw_text()` in the prediction tab instead of separate `preprocess()` + `predict_text()`
+
+---
+
+## Verification Plan
+
+### Automated Tests
+1. Run `streamlit run app.py` and verify no import errors
+2. Test scraping with multiple countries selected
+3. Train model and verify accuracy metrics improve
+4. Test prediction with known positive/negative sentences
+5. Test export buttons produce valid CSV/PDF files
+6. Toggle between EN/ID language and verify all labels change
+7. Switch Streamlit theme to light mode and verify sidebar/cards adapt
+
+### Manual Verification
+- Visual inspection of the dashboard in both light and dark mode
+- Verify buttons are disabled during processing
+- Download exported CSV and PDF to confirm file integrity

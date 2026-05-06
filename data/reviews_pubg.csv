@@ -1,61 +1,401 @@
-﻿review_text,rating,date,title,version,username,sentiment
-Game terbaik! Grafisnya keren banget dan gameplay seru abis. Update terbaru makin mantap!,5,2025-01-15,Game Terbaik,3.2.0,user001,Positif
-PUBG Mobile battle royale paling seru! Main sejak awal tidak pernah bosan.,5,2025-01-20,Tidak Bosan,3.2.0,user002,Positif
-"Mantap betul game ini, grafik HD sangat bagus. Map baru seru banget.",5,2025-02-01,Grafik Mantap,3.2.0,user003,Positif
-Suka banget update terbarunya! Mode baru menyenangkan dan bikin ketagihan.,5,2025-02-05,Update Bagus,3.3.0,user004,Positif
-Kontrol tembak smooth dan responsif. Recommended buat pecinta FPS!,5,2025-02-10,Kontrol Smooth,3.3.0,user005,Positif
-Best game ever! Setiap hari main terus gak bosan. TDM juga asik.,5,2025-02-15,Best Game,3.3.0,user006,Positif
-Grafiknya detail dan realistis. Efek suara senjata sangat bagus.,5,2025-03-01,Detail Bagus,3.3.0,user007,Positif
-PUBG terbaik! Setiap season content baru menarik.,5,2025-03-05,Content Menarik,3.4.0,user008,Positif
-Performa lancar jaya tanpa lag sedikitpun di hp saya.,5,2025-03-10,Lancar,3.4.0,user009,Positif
-Seru parah! Mabar sama temen makin asyik. Voice chat jernih.,5,2025-03-15,Seru Mabar,3.4.0,user010,Positif
-"Game bagus overall, cuma kadang lag di mode 4v4. Tapi memuaskan.",4,2025-01-18,Bagus,3.2.0,user011,Positif
-Gameplay seru mapnya luas. Ukuran download agak besar. Perfect!,4,2025-01-25,Seru,3.2.0,user012,Positif
-Salah satu game terbaik di mobile. Kontrol bisa di-custom.,4,2025-02-03,Recommended,3.2.0,user013,Positif
-Lumayan bagus gamenya. Update terakhir ada improvement bagus.,4,2025-02-08,Lumayan Bagus,3.3.0,user014,Positif
-Game strategi yang bagus. Perlu teamwork untuk menang.,4,2025-02-12,Kompetitif,3.3.0,user015,Positif
-"Senang game ini, banyak mode bisa dimainkan. Storage agak banyak.",4,2025-02-20,Banyak Mode,3.3.0,user016,Positif
-Game solid dan stabil. Jarang crash sekarang.,4,2025-03-02,Stabil,3.3.0,user017,Positif
-"Update terbaru bagus, senjata baru dan kendaraan baru. Seru!",4,2025-03-07,Senjata Baru,3.4.0,user018,Positif
-Grafisnya memukau untuk game mobile. Anti aliasing smooth.,4,2025-03-12,Grafis Memukau,3.4.0,user019,Positif
-Game FPS mobile terbaik. Matchmaking lumayan cepat dan fair.,4,2025-03-18,FPS Terbaik,3.4.0,user020,Positif
-"Game biasa aja, kadang seru kadang kesel karena cheater.",3,2025-01-22,Biasa Aja,3.2.0,user021,Netral
-Lumayan buat mengisi waktu. Terlalu banyak bot di tier rendah.,3,2025-01-28,Lumayan,3.2.0,user022,Netral
-Game OK tapi butuh HP spek tinggi. HP kentang ngelag.,3,2025-02-06,Butuh HP Bagus,3.3.0,user023,Netral
-Bagus gamenya tapi matchmaking gak balance. Newbie diadu pro.,3,2025-02-14,Matchmaking Jelek,3.3.0,user024,Netral
-Standard battle royale. Gak istimewa tapi gak jelek juga.,3,2025-02-22,Standard,3.3.0,user025,Netral
-"Oke gamenya, server suka maintenance mendadak. Ganggu.",3,2025-03-03,Maintenance,3.3.0,user026,Netral
-"Fifty-fifty, kadang lancar kadang lag parah.",3,2025-03-08,Fifty-fifty,3.4.0,user027,Netral
-Cukup menyenangkan tapi update terakhir ada bug mengganggu.,3,2025-03-13,Ada Bug,3.4.0,user028,Netral
-"Plus minusnya. Plusnya seru, minusnya banyak in-app purchase.",3,2025-03-20,Plus Minus,3.4.0,user029,Netral
-Gamenya bagus tapi kurang optimized untuk beberapa device.,3,2025-03-25,Kurang Optimized,3.4.0,user030,Netral
-Game makin berat. Update bikin hp panas dan boros baterai.,2,2025-01-19,HP Panas,3.2.0,user031,Negatif
-Banyak cheater dan hacker! Developer gak becus. Mengecewakan.,2,2025-01-26,Banyak Cheater,3.2.0,user032,Negatif
-Lag parah sejak update. HP flagship tetep ngelag.,2,2025-02-04,Lag Parah,3.2.0,user033,Negatif
-Pay to win. Skin mahal gameplay jelek. Matchmaking tidak adil.,2,2025-02-09,Pay To Win,3.3.0,user034,Negatif
-Sering crash dan force close. Reinstall masalah tetap sama.,2,2025-02-16,Sering Crash,3.3.0,user035,Negatif
-Update bikin game tambah lemot. Optimasi buruk mid-range.,2,2025-02-24,Makin Lemot,3.3.0,user036,Negatif
-Server Indonesia sering down. Ping tinggi terus.,2,2025-03-04,Server Down,3.3.0,user037,Negatif
-"Kecewa, dulu bagus sekarang banyak masalah. Bug dimana-mana.",2,2025-03-09,Kecewa,3.4.0,user038,Negatif
-Audio glitch suara senjata hilang saat pertarungan. Mengganggu.,2,2025-03-14,Audio Glitch,3.4.0,user039,Negatif
-Anti cheat payah. Banyak aim bot dan wall hack.,2,2025-03-19,Anti Cheat Buruk,3.4.0,user040,Negatif
-SAMPAH! Game terburuk. Penuh cheater dan bug!,1,2025-01-16,Sampah,3.2.0,user041,Negatif
-Uninstall! Tidak layak dimainkan. Server jelek cheater merajalela.,1,2025-01-23,Uninstall,3.2.0,user042,Negatif
-Sangat mengecewakan! Setiap update makin parah.,1,2025-01-30,Mengecewakan,3.2.0,user043,Negatif
-Cuma menguras uang! Skin mahal gameplay jelek banyak bug.,1,2025-02-07,Menguras Uang,3.3.0,user044,Negatif
-TERBURUK! Lag crash cheater bug semua ada!,1,2025-02-13,Terburuk,3.3.0,user045,Negatif
-Game sudah mati! Player tinggal bot. Matchmaking lama.,1,2025-02-21,Game Mati,3.3.0,user046,Negatif
-Tidak bisa login 3 hari! CS tidak membantu.,1,2025-03-01,Login Error,3.3.0,user047,Negatif
-Akun kena ban tanpa alasan! Tidak pernah cheat. CURANG!,1,2025-03-06,Kena Ban,3.4.0,user048,Negatif
-Paling boros kuota dan baterai. 1 jam baterai habis 50%.,1,2025-03-11,Boros,3.4.0,user049,Negatif
-HAPUS GAME INI! Penuh masalah developer tidak kompeten!,1,2025-03-16,Hapus,3.4.0,user050,Negatif
-Update versi baru control berubah aneh. Sensitivitas berubah.,2,2025-03-22,Control Aneh,3.5.0,user051,Negatif
-Versi baru lebih stabil dan grafis bagus. Terus ditingkatkan!,5,2025-03-23,Versi Baru Bagus,3.5.0,user052,Positif
-"Lumayan versi baru, ada perbaikan bug. Masih ada lag.",3,2025-03-24,Lumayan,3.5.0,user053,Netral
-FPS lebih stabil dan loading lebih cepat dari sebelumnya!,5,2025-03-25,FPS Stabil,3.5.0,user054,Positif
-Versi ini paling buruk! Lag dan sering disconnect ranked.,1,2025-03-26,Terburuk,3.5.0,user055,Negatif
-Fitur baru keren tapi ukuran game makin membengkak.,4,2025-03-27,Fitur Keren,3.5.0,user056,Positif
-Setelah maintenance game jadi lebih lancar. Terima kasih dev!,4,2025-03-28,Lebih Lancar,3.5.0,user057,Positif
-"Game masih oke, event kurang menarik season ini.",3,2025-03-29,Event Kurang,3.5.0,user058,Netral
-Setiap update selalu masalah baru. Capek bug terus!,1,2025-03-30,Selalu Bug,3.5.0,user059,Negatif
-Sangat menikmati game ini bersama teman. Squad mode the best!,5,2025-03-31,Squad Best,3.5.0,user060,Positif
+﻿review_text,rating,date,title,version,username,country,sentiment
+Koq lemot banget,1,2026-05-04,Tolong,4.3.0,Khotib__,ID,Negatif
+Grading pepek,1,2026-05-04,Grading pepek,4.3.0,Riezkal yedie,ID,Negatif
+"Saya sudah KD kecil
+Selalu dibikin tumbal untuk KD tinggi
+Bikin even yang ada grading
+Tiap mau naik selalu dibikin susah
+
+Ini game buat apa??????
+Sampai kapan anda membikin iser seperti saya kesusahan????
+Game dan Developer Taaekkk
+
+Sumpah Game anjingg ini",1,2026-05-04,Kebencian Dan Kekecewaan,4.3.0,PENIKMATTOUROK,ID,Negatif
+"saat masuk loby oke normal pas masuk pertempuran baru turun parasut langsung for close 
+gimana ini bikin kesel main kan gak heran banyak yang pensi ,ayolah tencent pubg m perbaiki lah kesel kalau main gini terooooos masak harus beli hp mulu buat main game luuuuu",1,2026-05-04,sering for close,4.3.0,ajaxasoy,ID,Negatif
+BUG SCOPE & JOYSTICK STUCK on IPHONE 15!!!,1,2026-05-03,BUG,4.3.0,BrianPra,ID,Negatif
+this app force close on ios 16,3,2026-05-03,PLEASE FIX IT,4.3.0,musuhgarena,ID,Netral
+Untuk grafik untuk iPhone biasa kategori iPhone 13 di kasih grafik 120 fps,4,2026-05-03,Grafik iPhone 13 biasa update 120 fps,4.3.0,Tai kura,ID,Positif
+lama bgt downloadnya pdhl jringan aku lancar,4,2026-05-02,lama downloadnya,4.3.0,caramel amelia,ID,Positif
+"why we need griding system? why? we have a ultimate royale!!! so for what griding system? no need griding system, use point system like usual is pretty fair",3,2026-05-02,no sense,4.3.0,Natan7121,ID,Netral
+"Hapus Sistem Grading ga Anjeng…..!!!
+Gausah Banyak event cukup satu asu bikin lag..Admin Tai Mending Kasih aja Gamenya Ke Krafton",1,2026-05-01,Sistem Grading,4.3.0,Dandy_Oyi,ID,Negatif
+game nya seru sih sayang sekali  hp saya tidak suport untuk memainkan game ini,5,2026-05-01,hp saya tidak suport 🤣😭,4.3.0,Dafitsandi,ID,Positif
+Hapus sistem greding pubg anjing,1,2026-04-30,Hapus sistem greding,4.3.0,Kangcotoo,ID,Negatif
+"Sekalinya jatoh ke jurang ga bsa naik kepleset mulu bego , cacat!!",1,2026-04-29,Game broken,4.3.0,Jembay.,ID,Negatif
+so freakin frame drop,1,2026-04-29,frame drop problem,4.3.0,HappyPersonn,ID,Negatif
+Login facebook bug,1,2026-04-28,Log in,4.3.0,donocop,ID,Negatif
+"hilangin tuh min fitur greading nya, bukanya makin rame malah makin sepi nih game klo fitur greading masih ada..
+bikin player setres",1,2026-04-28,setres gara gara greading,4.3.0,greading gj,ID,Negatif
+"Ni mode gak ada gunanya banget cok, buat apaan malah dipake buat boongin pasangan😤😤 tapi emg cowok w aja kurang ajar, emg anak anjing brengsek w sumpahin susah hidup lo ajg kimak",3,2026-04-28,Mode stealth gaguna sumpah,4.3.0,S’tka,ID,Netral
+"Di ip 13 masih suka frame drop,tolong di perbaiki🙏🏻",1,2026-04-28,Semoga di dengar,4.3.0,Kkkkkkxzisjbz,ID,Negatif
+"Min tolong dong agak di turunin gb ny
+Kasian player old seperti kmi
+Hp nya ga mendukung🥹🙏🙏",4,2026-04-28,Hm,4.3.0,Curong123,ID,Positif
+"ade gua main diboom mulu katanya, sedih dia",1,2026-04-27,"jangan ada bom min,",4.3.0,ubem osas,ID,Negatif
+Game kikir,1,2026-04-26,Dari isi hati,4.3.0,Kyuzeccg,ID,Negatif
+kasih tambah sama spin nya ga kikir,5,2026-04-26,dengarkan aspirasi masyarakat dan pemain,4.3.0,Jackypratama,ID,Positif
+Parah udah segala cara tp tetap aja ngk ada suara mi nya,1,2026-04-26,Bug mic,4.3.0,Jekamooo,ID,Negatif
+Main Game Buat Ngilangin Stres Malah Nambah Stres Gara2 Sistem Grading!!!,1,2026-04-26,Hapus Sistem Grading!!!,4.3.0,Yoki Adnin,ID,Negatif
+Kenapa pubg global yang aktif di korea sangat susah untuk dapat pertandingan jika solo random?,1,2026-04-25,Payah,4.3.0,Ahmadr91,ID,Negatif
+Bagus sekali,5,2026-04-25,Bagus,4.3.0,Fidelis raja,ID,Positif
+Tolong hapus sistem grading,5,2026-04-25,Keresahan,4.3.0,BANGTOYlB,ID,Positif
+"grading musuhnya ga ngotak ya min, pemula mau berkembang ga bisa gara gara grading ga semua orang jago main pubg malah disuruh grading, main pubg utk hiburan malah jadi beban",1,2026-04-24,grading,4.3.0,grading tai,ID,Negatif
+STOP AUTO DOWNLOAD RESOURCE!!! Very anoying game still do auto download. Event every setting disable its not work . Keep donload unused resoruced .. very anoying,1,2026-04-24,STOP AUTO DOWNLOAD,4.3.0,Dondondon7777,ID,Negatif
+fitur download otomatisnya tidak berguna,1,2026-04-23,tolong di fix dong,4.3.0,A4):):738,ID,Negatif
+HAPUSS GRADING SIALANNN KITA KESUSAHAN NAIK RANKED GAMEE SIALLLLL,1,2026-04-23,grading,4.3.0,amiiwwyyy,ID,Negatif
+Sering patah2 parah dan sering berubah2 sendiri pengaturan nya saya menggunak device 14 pro,1,2026-04-22,Grafis,4.3.0,Liecongwi,ID,Negatif
+Ada sistem granding apalagi sekarang kalo main di jadiin satu server sama orqng granding semua pada main di zona akhir,1,2026-04-22,DI PERSULIT,4.3.0,Whitefoxy13,ID,Negatif
+Sudah lama gak main sekalinya mau main malah gak bisa konek ke akun fb(akun lama) mau main lagi malah di bikin ribet,1,2026-04-22,Game busuk,4.3.0,AryPriyadnyana,ID,Negatif
+"tiap update datanya selalu lebih,bikin penyimpanan cepat penuh bahkan iphone 11 64 GB pun udah ga worth it buat main game ini",4,2026-04-22,update season boros penyimpanan,4.3.0,gita2862,ID,Positif
+Developer nya tolol ni,1,2026-04-22,Game tolol makin lama bukan makin bagus,4.3.0,MOONTONbabikimakpepek,ID,Negatif
+"game haram jangan dimainin guys, inget ff ada sajadah jadi ff game halal",1,2026-04-21,kontol,4.3.0,Ngentot di air,ID,Negatif
+Tolong ini mau update/download ulang lama banget sinyal wifi lancar pake data juga sama lama banget😪,4,2026-04-21,perbaikan,4.3.0,jin shakai,ID,Positif
+"Tolong lah buat pubgm jangan mandang fps. Fps tinggi pluru lebih cepat kluar fps rendan peluru levih lambat keluar
+
+Tolong di perbaiki semua fps harus setara !!",4,2026-04-21,Fps,4.3.0,Jukut jepang,ID,Positif
+Dimass to bott sekalii,5,2026-04-21,Dimscraft,4.3.0,Jonoo handoko,ID,Positif
+"I’m done with it, promoting matches is frustrating. I think i’m gonna quit playing this game",1,2026-04-20,promoting match,4.3.0,lemoootttt,ID,Negatif
+"Ni game bagus, cuma terlalu kebanyakan update yang ga diperlukan. Semakin lama semakin berat dan kek udah bukan game mobile lagi. Saya main di iphone xr dengan grafik smooth extreme pun masih ngelag, fps drop dan device cepat panas. Bener2 mengecewakan!
+Saya udah lama ga main ni game, pas instal untuk main ni game udah banyak banget perubahannya, sudah tidak seperti dulu lagi yang lebih mentingin eksperiens bermain player. BIG L for you guys!",2,2026-04-20,NOT INTERESTED TO PLAY ANYMORE!,4.3.0,draxr6,ID,Negatif
+"Di xr sering sekali forclose,padahal memori lega banget,berikan solusi",1,2026-04-20,Forclose,4.3.0,Juara forclose,ID,Negatif
+Kepala saya sakit karena grading,3,2026-04-20,Grading,4.3.0,Grading membunuhmu,ID,Netral
+Keluar trs akun gua di buatnya banyak hilang akun ki disini hati hati kalian semua main game ni,1,2026-04-19,Erros anj,4.3.0,Tai kau pubg,ID,Negatif
+"Menurut saya fitur ini kurang menarik, karena sistem dihitung dari hastag bukan dari statistik permainan, sehingga menuntut banyak player untuk bermain camper",1,2026-04-19,Fitur Grading,4.3.0,uvuvuweeossas,ID,Negatif
+Benerin sistem lu babi banyak yang pensiun karena males sama sistem lu. Cheater 1000 yang di ban 1 males main uninstall pubg. Pensiun main game rusak BANYAK CHEATER. MAIN AJA BIAR KALIAN TAU SESAMPAH APA GAME INI CACAT. PUBG ASUUUUU. PUNG CACAT. GAME INI UDAH GA LAYA DI MAININ PENSIUN AJA CHEATER SEMUANYA ISINYA MATI DI VELAKANG TEMBOK LAPORAN GA DI TANGGAPI,1,2026-04-18,GAME CACAT UNINSTAL SELAMANYA. PENSIUN MAIN GAME RUSAK CHEATER,4.3.0,Bottactical,ID,Negatif
+"Tolong hilangkan mode grading karna itu sangat buruk saya sudah sampai di top 8 tapi kalau mati ke reset lagi itu yang membuat saya kecewa pada Pubg MOBILE sema kedepanya mode grading ini di hapus.
+Terima kasih",1,2026-04-18,Kecewa,4.3.0,SR9xHUSKE¥,ID,Negatif
+sistem grading gajelas ngentot asu babi,1,2026-04-18,GAME pepek,4.3.0,gathel ngasu,ID,Negatif
+Main PUBG buat ilangin stres dari kerjaan malah ditambah stres karena sistem naik tier. Tolong ga usah dibuat sistem grading buat naik tier. Banyak player yang mau nyari hiburan bukan dibikin pusing.,1,2026-04-18,Pusing sistem naik tier yang ga jelas,4.3.0,Botbronze,ID,Negatif
+Setiap bermain ranked ping saya sangat buruk (677ms),1,2026-04-18,Ping tidak stabil,4.3.0,Pankaremex,ID,Negatif
+"brotha im que for an hour straight and didn’t got any match, what’s the point of this game",1,2026-04-17,Didn’t even find a single match,4.3.0,pubgbanci,ID,Negatif
+"Cuma game copy paste dari pubg pc aja gachanya aja sulitnya minta ampun, skin mahal mahal, kalian tuh gak layak di apresiasi dengan skin mahal mahal kecuali karya sendiri paham? Cuma game tiruan aja mau gacha senjata harus habis jutaan,  pantes sepi gak ada semngat lagi buat main",1,2026-04-17,Game sepi serakah pula,4.3.0,jackfizz12,ID,Negatif
+akhir akhir ini main sering bgt drop servernya jadi delay semua,2,2026-04-16,server,4.3.0,faisalhakim,ID,Negatif
+Tidak bisa buat akun baru,3,2026-04-16,Login,4.3.0,Roan punyim,ID,Netral
+"setiap match kelempar ke server luar, ping jumping",1,2026-04-16,sinyal taik,4.3.0,iyajsh,ID,Negatif
+Jujur udh kurang asik karna ga ada yang main mode FPP,4,2026-04-16,Yap,4.3.0,}RA——,ID,Positif
+Grading tai nyusahin,1,2026-04-15,Grading tai,4.3.0,Hendrawan12,ID,Negatif
+Matching slowly,2,2026-04-15,Matching lama,4.3.0,Edo S_,ID,Negatif
+sudah lebih 5 hari ga bisa login PUBG lewat facebook 👎👎👎👎,2,2026-04-14,Gak bisa Login PUBG lewat Facebook,4.3.0,Fenrir.Oyen,ID,Negatif
+"Saatnya kembali pensiun bermain pubg mobile karena sudah 3 hari melaporkan adanya tidak kestabilan ping hingga 120 ms di akunku saat didalam ranked dan klasik ingame, tetapi disaat bermain arena ping kembali di 20ms",1,2026-04-14,Ping tidak stabil di in Game,4.3.0,PrynnLev,ID,Negatif
+"Tolonglah gausah pakai grading, bikin para player jadi ngendok bukannya jadi nyari kill😃😃",2,2026-04-14,Grading,4.3.0,ryuuuuuuuiviyv,ID,Negatif
+"semenjak ada grading, saya rasanya tidak ingin lagi maen game ini",1,2026-04-13,kurang nyaman,4.3.0,zia mutiy,ID,Negatif
+"Apakah benar baju bape akan dirilis kembali ?! Kapan ?! 
+Pasti banyak yang mau baca itu serius",4,2026-04-13,Baju BAPE,4.3.0,Ompong☺️,ID,Positif
+Sistem griding taik,1,2026-04-13,Tolol,4.3.0,Pepek uwaik ayah ank,ID,Negatif
+min tolong perbaikin bug jongkok di iphone 15,2,2026-04-13,bug,4.3.0,bugpubg,ID,Negatif
+Kenapa ni tencent pubg gua gabs dibukaa,3,2026-04-13,tencent cuki,4.3.0,hodeee_,ID,Netral
+Pubg gak asik,1,2026-04-12,Gue paling malas main pubg pakek syarat naik tier,4.3.0,Raddfgg,ID,Negatif
+"Makin kesini makin susah buat login! 
+Kenapa sih pembaruan sekarang bikin susah login akun 
+Bukanya bikin makin rame malah makin sepi ni game 
+Gara² susah login tai²",1,2026-04-12,Susah login,4.3.0,ari123514,ID,Negatif
+Jadi malas mainnya,1,2026-04-12,Masa harus grending truss,4.3.0,Auksnsb,ID,Negatif
+"This is my favorite game, i play this game since 2019-now, and this game is always the best game for me 🥰",5,2026-04-12,My Favorite Game Ever 🤩,4.3.0,RajaKing slebew,ID,Positif
+saya main 10 jam buat grading gak lolos musuhnya ngecit semua tolong pubgm lebih niat lagi saat membuat game,5,2026-04-11,game ini jangan di download,4.3.0,tencent yok kerja,ID,Positif
+"«здесь могла бы быть ваша реклама🤌🏼»
+Заебал🗿",5,2026-04-11,Продаю место для рекламы,4.3.0,elemadi,ID,Positif
+Bug demag s12k masa aku tiga hit musuh nggak mati game tolol nggak jelas babi puki,1,2026-04-11,Pubg tolol,4.3.0,Game ajg tolol,ID,Negatif
+"Susah login banyak bug gajelas, semoga di benerim udah banyak komplain",1,2026-04-10,LOGIN,4.3.0,aishsjsjaniaoandnsjaj,ID,Negatif
+TERIMAKASIHHH BABAJIII SUDAH MEMPERTEMUKAN AKU DAN DAVID!!,5,2026-04-09,rrqzeyya,4.3.0,rrqzeyya,ID,Positif
+Hapus aja udah gradingnya bikin kayak yang lama bikin ribet aja uda maen ga punya headset suruh grading hancur dah ga bisa naek?,5,2026-04-09,Tier,4.3.0,Suka dipanggil pria,ID,Positif
+"Itu yg ngasih bintang satu gegara crash/force close rata2 maen di ip purba, kalian pikir aja pake logika mana kuat ip 6/5 di pake maen pubg minimal maen pubg di atas ip 6🤣",5,2026-04-09,GG,4.3.0,Riss16372,ID,Positif
+Kenapa saya mau masuk akun saya menggunakan tautan Facebook selalu gagal yah sdh 3 hari ini saya gagal masuk terus sdh ajukan gugat juga sama saja,2,2026-04-08,Gagal login,4.3.0,@gil110,ID,Negatif
+"game jelek sialan najis, grading tolol, monyet",1,2026-04-07,puky,4.3.0,vaskiessss,ID,Negatif
+fungsi grading apa ajg,1,2026-04-07,kontolatos,4.3.0,jeon peter,ID,Negatif
+Selalu disconnect anjing,1,2026-04-06,Game tai,4.3.0,JinYoura,ID,Negatif
+"Tiap mode harus setting layout, pas salah nyalin terus simpan, terus di unduh via icloud malah tetap layout yang layout yang salah setting. Jadi males mainnya harus setting2 lagi game kebanyakan layout gamepad malah susah jadinya soalnya tiap mode beda",1,2026-04-05,Layout game pad,4.3.0,Akuaghe,ID,Negatif
+"Koneksi dalam ingame sangat buruk, Ping tiba-tiba tinggi, sehingga tidak bisa bermain. Kadang langsung disconnection. Ini sangat merugikan. Tolong diperbaiki lagi.",3,2026-04-05,Koneksi,4.3.0,narajiii,ID,Netral
+"game pelit, pelit abisss, ngehabisin banyak uc buat skin m4 tapi ngga dapet” setannn, kikirrr kikirrr, pelitttt, liat orang” pada gampang buat dapet, dari lama main pubg gapernah hoki",3,2026-04-05,GAME KIKIR,4.3.0,aseptol,ID,Netral
+A lot of bug,1,2026-04-05,Nah,4.3.0,Apalahhhhhhhhhhhhhhhhh,ID,Negatif
+Padahalan akun lama tapi gak bisa login padahal versi dulu tu bagus,1,2026-04-05,Gak bisa login dengan fb,4.3.0,"Cip,lukan",ID,Negatif
+"Back in the day, this game look so realistic. Feels like arma games. It gives us full war combat experience. Years after years, today. This game look like anime cartoon etc with someone else flying with jetpack. I quit",1,2026-04-05,Gaming experience,4.3.0,Doyyybaltz,ID,Negatif
+even sekarang kek pantek,5,2026-04-05,even sekerang kek anjing,4.3.0,aprorkd,ID,Positif
+Hal yang paling ga berguna dan menyusahkan player adalah muzzle dengan suara2 yang aneh….,1,2026-04-04,Tiba2 ada muzzle aneh yang menyulitkan player,4.3.0,Baguskapurajaib,ID,Negatif
+"Saya melaporkan berulang kali bahwa ada file yang di download, padahal saya sudah matikan fitur download. Tanggapan cs PUBG, itu cuma sebentar. Padahal itu terus berulang, dan kadang sampai beberapa menit dengan kecepatan mencapai 10mb per detik. Saya melapor karena kerap menguras kuota internet saya. Dan tanggapan cs benar benar sampah. Tidak ada solusi, developers sampah. Saya Kira iOS Lebih bagus, rupanya makin sampah",1,2026-04-04,"File rusak, melakukan download terus terusan",4.3.0,Jhon50Shon,ID,Negatif
+"Ngasih muzel kayak tai, event udah bGus malah kayak tai sekarang",1,2026-04-04,April sampah,4.3.0,Lagsjalzn,ID,Negatif
+"You know you’re game is dead now, you should not separate the emulator and mobile device server. If you want the palyers to come back",1,2026-04-03,Matchmaking Issue,4.3.0,Ghifar Jr,ID,Negatif
+Nge bug ga bisa jalan aneh tolong di benerin lagi min,4,2026-04-03,Bug,4.3.0,Telkom kurang,ID,Positif
+kebanyakan birokrasi!!,1,2026-04-03,Game ampas,4.3.0,7deadlyfool,ID,Negatif
+"Game paling sampah sedunia, event kayak babi, develover tai gk ada otak ,, mari tinggal kam pubg rame rame",1,2026-04-03,Game sampahh,4.3.0,Pubgkont0l,ID,Negatif
+mantap,5,2026-04-03,jaya terus,4.3.0,dueduendjs,ID,Positif
+Balikin full hitam lah ui nya jelek bngt taikk,2,2026-04-03,Bacotan,4.3.0,Kimakxxx,ID,Negatif
+Kebanyakan event,1,2026-04-02,Kembalikan pubg oldd,4.3.0,Hohuuuuj,ID,Negatif
+"Overall it’s a good game, but please do some optimization especially in event mode. One more thing, there are too many skins now which causes the size to increase without any significant improvement in gameplay.",4,2026-04-02,Please Optimize and Too many Skins,4.3.0,PewpewMiaw,ID,Positif
+"Overall it’s a good game, but please do some optimization especially in event mode. One more thing, there are too many skins now which causes the size to increase without any significant improvement in gameplay.",4,2026-04-02,Please Optimize and Too many Skins,4.3.0,PewpewMiaw,ID,Positif
+Game sampah sepi,1,2026-04-01,Semenjak di akuisisi makin buruk,4.3.0,Telkom anjeng,ID,Negatif
+kalo boleh hapus grading susah sekali bikin gak mood main,1,2026-04-01,naik tier,4.3.0,PALKON GAMING,ID,Negatif
+Mau sampe kapan developer membiarkan cheater bebas main,2,2026-03-31,Game banyak cheater,4.3.0,berkahalam,ID,Negatif
+Server anjing,1,2026-03-31,Game bobrok,4.3.0,Ekuivalen,ID,Negatif
+Sistem grading jahanam,1,2026-03-31,Gila,4.3.0,Julak_jeki,ID,Negatif
+Kurangi syarat grading yang sampai #5 orang itu,3,2026-03-31,Grading,4.3.0,Lixx31,ID,Netral
+"Banyak bug setiap ganti season, sensitivitas juga ter- reset ke setelan awal. Jadinya harus di atur ulang lagi sensitivitas nya",3,2026-03-30,Kekurangan,4.3.0,Pria Solo (jack),ID,Netral
+"2026 PUBG MATCHMAKING WAITING TOO LONG, PUBG OKAY? OR There no many people playING this game ANYMORE!! Your SYSTEM NOW MAKE PLAYER FOR DUO WAITING TOO LONG!!! I THINK YOU SHOULD MAKE THIS GAME JUST SQUAD,   JUST ERASE DUO AND SOLO!!! I’VE BEEN WAITING 10 MINUTE FOR PALAYING DUO IN EVENT !!!!",1,2026-03-30,MATCHMAKING GAME TO LONG,4.3.0,Magdalollyna,ID,Negatif
+"hapus grading, grading"" macam t4* udah game sepi pake acara grading"" gajelas",1,2026-03-30,GRADING T4*,4.3.0,.?83,ID,Negatif
+Ok baiklah,4,2026-03-29,Yes,4.3.0,Counter mbg,ID,Positif
+"server lu keseringan bug jir, gua login fb gabisa bisa kimak",1,2026-03-29,server,4.3.0,……26272),ID,Negatif
+Semejak ada Grading jadi males 2x lolos 1x gagal alhasil gwe uninstal males jadi ga jelas gini,1,2026-03-29,Pubg SAMPAH,4.3.0,CEO memek,ID,Negatif
+"Udah gua edit atur tombol terus pencet simpen malah gabisa udah berkali kali gua gtuin, klo bikin pengaturan atur tombol yg benerr ya soalnya gajelass, di benerin lgi yaa beo",1,2026-03-29,PENGATURAN TIDAK BENER,4.3.0,PENGGUNA PUBG AJG,ID,Negatif
+Lemot banget di dowload padahal jaringan bagus wifi lancar,1,2026-03-29,Gghhh,4.3.0,Selvi boro,ID,Negatif
+Lama banget download nyaaa,1,2026-03-28,Lamaaaaaa,4.3.0,Andryar11,ID,Negatif
+i love this game❤️❤️❤️,5,2026-03-28,the best game,4.3.0,dwiistra,ID,Positif
+Susah bgt login dari twiter/ X udh 2 minggu ga bisa login,3,2026-03-28,Cacat,4.3.0,tencen gblg,ID,Netral
+Game terkontol,1,2026-03-27,Pabji,4.3.0,Ajauwh,ID,Negatif
+Good,5,2026-03-27,Good,4.3.0,Rizky19222,ID,Positif
+Ooo,5,2026-03-27,Hbd 8th,4.3.0,Nossacn,ID,Positif
+"berat bgt , masa jaringan oke loading terus",2,2026-03-27,Ip 11,4.3.0,Byutttt,ID,Negatif
+"PLEASE REDUCE THE SIZE OF THIS APPLICATION AGAIN, SO THAT ALL DEVICES CAN PLAY AND HAVE MORE PLAYERS, LOWER IT TO 1 GB FOR THE APPLICATION SIZE👀",5,2026-03-27,OVERSIZE APP,4.3.0,Do369_,ID,Positif
+"I already hate the matchmaking since along time but now its worse, i want whoever work in the company shot the one who gave the grading idea thats makes the game more boring and more people just prone the whole game",5,2026-03-27,I hate the matchmaking,4.3.0,"BillyWan,.",ID,Positif
+"game keren , cuma sayang device nya kurang mumpuni ..",5,2026-03-26,seru,4.3.0,xyzvx•,ID,Positif
+Sukses terus,5,2026-03-26,Gg,4.3.0,Bintang indie,ID,Positif
+Pelit banget dah,1,2026-03-26,Pelit,4.3.0,Gusdry,ID,Negatif
+Terima kasih sudah menemani hari hariku🙌,5,2026-03-26,Pubg,4.3.0,fujiPUBJI,ID,Positif
+game rusak,1,2026-03-26,GAME RUSAK,4.3.0,izzadin zidan,ID,Negatif
+Gak bisa login lewat fb dan gmail,5,2026-03-26,GAK BISA LOGIN FB,4.3.0,Haidiron,ID,Positif
+"semenjak di pegang krafton jadi ga jelas, ga ngecheat aja kebanned 10th padahal gua baru download setelat bertahun tahun ga main",1,2026-03-26,krafton,4.3.0,cleonfauzy,ID,Negatif
+Mantppppppp,5,2026-03-25,Ma,4.3.0,Dewa ande,ID,Positif
+Game terbaik sepanjang masa,5,2026-03-25,PUBGM,4.3.0,Kezzie10,ID,Positif
+mantap,5,2026-03-25,good geme,4.3.0,asikmen,ID,Positif
+potato server,1,2026-03-25,potato server,4.3.0,ulala0000,ID,Negatif
+🔥,5,2026-03-25,🔥,4.3.0,Rio Sihombing,ID,Positif
+"Tidak bisa menggunakan 3D Touch pada pengaturan layout customize button pada setting
+3D Touch tidak bisa dipilih
+Mohon diperbaiki
+Terima kasih",1,2026-03-24,3D Touch bermasalah,4.3.0,Windyku,ID,Negatif
+hit box gajelas,1,2026-03-24,pantes berkurang yang main,4.3.0,sopan santun telah hilang,ID,Negatif
+Game citer pantek,1,2026-03-24,Game pantek,4.3.0,BlONlC,ID,Negatif
+Kembali di tahun 2026,5,2026-03-24,Lebih bagus dari mobile legend,4.3.0,Rondayani,ID,Positif
+bagus,5,2026-03-24,bagud,4.3.0,diaksjeje,ID,Positif
+"Membuat pengalaman bermain kurang enak, banyak bug dimana mana. Yang bener aja lah pubg, tlol bat anying main sematch sama team masa yang lain pada masuk cuma gua doang yang gamasuk. Tlol bener",2,2026-03-23,Semakin besar update semakin banyak bug,4.3.0,Gaperlu-tau,ID,Negatif
+"gabisa update min , jaringan lancar penyimpanan luas, tetep ga jalan sama sekali",2,2026-03-23,GABISA UPDATE,4.3.0,MMKTAYO,ID,Negatif
+mau naik rank make grading sgala bikin repot aja tiap 2x lolos 1x tooson,1,2026-03-23,rank,4.3.0,joki balap liar,ID,Negatif
+punyaku pas di update skrng 4.3 setelah download hapus lagi download lgi gak ada perubahan. gyronya berat sekali. sensi sudah semua di utak atik sampai paling mentok 400pun sama. tiba2 saja gyro berat tolong di bantu solusinya,5,2026-03-23,gyro tiba tiba berat,4.3.0,fmsxjacob,ID,Positif
+Cape kerja pulang main game di persulit grading emat tai,2,2026-03-23,Grading tai,4.3.0,Mxbdiskndjd,ID,Negatif
+"Cukup lama pensi lalu nyoba main lagi, kok tambah aneh ya.
+Eventnya terlalu colorfull, sempet kaget, ini beneran PUBG? visualnya malah kaya game F*ee F*re. Cukup kecewa. Terlalu banyak perubahan yang ga perlu. Selain itu, game ini jadi tambah berat sih. Ga berharap apa apa sih di device XR cuma agak kerasa gitu. Apa gara gara event nya ya",2,2026-03-22,Semakin aneh,4.3.0,membbuahii,ID,Negatif
+game tai mantan asu,1,2026-03-22,mantan sintia tai,4.3.0,ank sbrng ajg,ID,Negatif
+"GAME BURIK, HABIS UPDATE JADI MAKIN NGELAG, NGESTUCK DI LOADING SCREEN, POKOKNYA JELEKK TIDAK DISARANKAN BUAT PEMULA👎",1,2026-03-22,BUAT PUBG,4.3.0,GUNTUR12445,ID,Negatif
+Tolong itu bug non aktifkan fpp di perbaikin udah di matiin juga masi ada di match itu sangat mengangu bagi saya player top,3,2026-03-22,Bug,4.3.0,Cm nvgevbeh,ID,Netral
+benerin bug gyro dari dlu gaperna dibenerin,1,2026-03-22,fix bug,4.3.0,dao2710,ID,Negatif
+Keren,5,2026-03-21,Bagus,4.3.0,BTHRxAprizen,ID,Positif
+Asu itu grading anjing,1,2026-03-21,Grading,4.3.0,.(5ttt,ID,Negatif
+2x kena hack,3,2026-03-21,hah,4.3.0,blankkk21,ID,Netral
+Terlalu sering update hingga sangat mengganggu dan menguras kuota internet,3,2026-03-21,Komplen,4.3.0,Udhin pasollekeng,ID,Netral
+please,2,2026-03-20,please add performance optimization,4.3.0,perhatian8,ID,Negatif
+Makin update makin tmbh bnyak mslh bnyak bug dan gagal server g jls makin prah,1,2026-03-20,Game makin cacat,4.3.0,Playerr oldd,ID,Negatif
+"data dalam game berupa skin outfit, maps, event lama sudah dihapus tapi kenapa selalu kembali padahal tidak pernah mendownloadnya kembali",1,2026-03-20,penyimpanan terlalu besar,4.3.0,karyawan bergaji imut,ID,Negatif
+"pubg now is weird..please back to the earlier season..no gimmick like now..dont be like freefire !!! too many unreal gaming experience
+suggest : 
+just please back to pubg basic and natural battleground, at least session 1st till 5th..its amazing session...godzilla or alan walker collabs session is awesome  no gimmick or weird things that show up in battle..",2,2026-03-19,PLEASE BACK TO GODZILLA EXPERIENCE SESSION !!!!,4.3.0,novazka,ID,Negatif
+"Id saya pakai nomor verifikasi lama,dan nomor itu tidak digunakan lagi.bisa ganti ke nomor baru gak ya",5,2026-03-19,Ganti no hp tertaut,4.3.0,Ardiansyah Pratama,ID,Positif
+PUBG MOBILE Nice,5,2026-03-19,PUBG MOBILE,4.3.0,Ngabarul17,ID,Positif
+"aneh, storage masi kosong bgt tp pas dibuka bilangnya ""not enough storage""? woy benerin game lu gajelas nih",1,2026-03-18,error trs nkjs,4.3.0,ktwfu,ID,Negatif
+Keren,5,2026-03-18,keren,4.3.0,farradwii,ID,Positif
+"Banyak mode game tapi mau masuk susah kebanyakan nunggu pemain lain, memory terlalu besar",1,2026-03-18,Game rusak,4.3.0,Wongjfjfofofn,ID,Negatif
+"Pubg sekarang jlk ,server gampang putus tidak jls padahal jaringan wifi Kencang",1,2026-03-17,Buruk,4.3.0,Asemmm2777,ID,Negatif
+Game paling rame,5,2026-03-17,Game keren,4.3.0,Richone22,ID,Positif
+"Pas on mic suara teman masuk tapi saya ngomong ga masuk ke dia,apakah ada yang tau,ipxr",4,2026-03-17,Ga masuk suara pas on mic,4.3.0,Nero_vanitas,ID,Positif
+Beri option ui di 4.3 dengan mode dark,5,2026-03-17,Ui 4.3,4.3.0,Niaaaaaaa9,ID,Positif
+nguyen ngendokan,2,2026-03-17,NGUYEN JANGAN NGENDOK,4.3.0,nguyen ajg,ID,Negatif
+gamenya seru anjg,5,2026-03-17,pubgm,4.3.0,si tampan pemberani,ID,Positif
+Good,5,2026-03-17,GAME TERBAIK,4.3.0,Zacky Alif,ID,Positif
+game aneh sensinya malah ke reset dasar game tolol,1,2026-03-17,pubg anak dajal,4.3.0,nakdneidbdb,ID,Negatif
+"woi dev pubg lu plenger apa gimana, gua login pake akun facebook katanya kesalahan server padahal jaringan gua lancar parah ini kenapa dev plenger tolong beri jawaban",1,2026-03-17,buat pubg plenger,4.3.0,yoreeeeeeeeeeeeeee,ID,Negatif
+event terjelek,1,2026-03-17,event,4.3.0,zyco1234,ID,Negatif
+"Habis update versi terbaru login via Facebook keluar sendiri gabisa masuk ulang gimana solusinya
+Udah coba uninstall & install ulang ber kali” sama saja gabisa masuk ke game",1,2026-03-16,Gagal login,4.3.0,Young\Papa,ID,Negatif
+tolong donk file nya di kecilin dikit,4,2026-03-16,1,4.3.0,aku suka aku,ID,Positif
+"Krafton saya pengguna ip dan pubg lovers,.sudah 8 tahun saya bermaian pubg dgn segala updetanya,..baru kali ini saya main patah patah 😥,bahkan sampai ngaruh ke device saya jg jd terhampat buka apk lain,.tolong krafton di tinjau ulang updte'n sekarang 🙏🏽",5,2026-03-16,Tolong di tinjau ulang,4.3.0,Ujank Zone,ID,Positif
+Always game best,5,2026-03-16,Best game forever,4.3.0,Dedy hariyanto s,ID,Positif
+"Please release PUBGM lite ,",1,2026-03-16,Big size,4.3.0,IDjaran,ID,Negatif
+Yang sekarang sakit di mata,3,2026-03-15,Tolong pebaiki tampilan loby seperti dulu🙏,4.3.0,Anomim113,ID,Netral
+"update terjelek sepanjang main pubgm, event gajelas b1",1,2026-03-15,update 4.3,4.3.0,hembusan silit,ID,Negatif
+"kenapa download nya lama sekali di ip 16 pdhl ram banyak wifi lancar anehnya lambat bet, giliran di andro kenceng",3,2026-03-15,Susah download,4.3.0,denlouisss,ID,Netral
+"Tolong di kondisikan min, WOW nya ga bisa onmic tolong di bantu perbaikan nya secepatnya min 🙏🙏",1,2026-03-15,WOW PUBG ga bisa on mic min,4.3.0,kucayy53,ID,Negatif
+Delete grading system!,1,2026-03-15,Delete grading system!,4.3.0,¥|£~^,ID,Negatif
+"we dont like the changes with interface 
+please return the old version. many people
+stop play game because of new update
+
+please listen to the player .",1,2026-03-15,Ui CHANGE,4.3.0,kiboyyworld,ID,Negatif
+tampilan buriqqqq ajik bagusan versi sebelumnya,1,2026-03-15,update terbaru,4.3.0,puqqqy,ID,Negatif
+Kren,5,2026-03-14,Permainan kren,4.3.0,Astutirustam,ID,Positif
+"grading macam tai, sisa 1 lagi kalah mulu tai, mana banyak yg ngendok",1,2026-03-14,gajelas lu min,4.3.0,kiozkk,ID,Negatif
+Game topp 1,5,2026-03-14,Pubg,4.3.0,AlamsyahFarit,ID,Positif
+makin ngeframe gilaa,2,2026-03-14,makin berat kalo di update,4.3.0,nashhuu,ID,Negatif
+tolong greding nya di hapus ya  mimin susah bnget naikin nya,3,2026-03-14,greding anj,4.3.0,lam rateb,ID,Netral
+"Tolong di ganti event sekarang, event mobil jelek",5,2026-03-14,Jelek,4.3.0,Jshauzbahausbqi,ID,Positif
+"Update an apa ni kek game ff, gajelas ganti lah balikin yang dulu",5,2026-03-14,Oh pubg,4.3.0,Gunawan gahtoni,ID,Positif
+itu gila bgt memory makannya tolomglah bisa kali sewajarnya,2,2026-03-14,p yg bnr aja,4.3.0,Stepen300,ID,Negatif
+Game buruk update norak,1,2026-03-14,Update terburuk pubg,4.3.0,Zeeo23,ID,Negatif
+"Updead ngerubah grafik ngerubah tombol gajelas lu, event nya tolol lagi dah bangkrut aja bangkrut mau pensi",1,2026-03-14,Updead tersampah tolol,4.3.0,mooooooontonbosokkkkkk,ID,Negatif
+The new update graphic make me dizzy,2,2026-03-14,New update make me dizzy,4.3.0,Z_Andy,ID,Negatif
+"pubg setan nge grinding gajelas tololl, team gw #9 giliran gw #20 monyet",1,2026-03-14,idiot,4.3.0,apkbgo,ID,Negatif
+makin kesini makin gajelas pubg mobile ga seru event aneh bikin pemain nya pada pensi makin ancur aja pubg mobile ini jelek ga menguntungkan gausa di download mending uninstal aja game jelek.,1,2026-03-14,event gajelas,4.3.0,alxndrprdpt,ID,Negatif
+Pugh serasa ff,2,2026-03-14,Kembalikan iven yang dulu,4.3.0,Wahyuuuunananan,ID,Negatif
+"game tidak ada monetisasi,game apa ini",1,2026-03-13,game ga jelas,4.3.0,john donbask,ID,Negatif
+Delete Promotion Match! its not fair,1,2026-03-13,Delete Promotion Match!,4.3.0,Farohan,ID,Negatif
+"Iven jelek gk jelas,jdi gk mood main",1,2026-03-13,Game pree payer ini nama nya jembut,4.3.0,ariantopili,ID,Negatif
+I have sone issues about touch the left button on the lobby.. I have to reload again and them the issues gone! Everytime this happen when I open the apps,1,2026-03-13,Error touch,4.3.0,Izh1008,ID,Negatif
+"mentok di loading screen, padahal baru update, heran. wifi manteng, data ada",1,2026-03-13,aneh,4.3.0,Jonsteelinthehouse,ID,Negatif
+saya pakai ipad mini 6 yang spek nya udah ok dan wifi saya juga ga lemot tapi ini update lama banget padahal update aplikasi lain aman aja aneh,1,2026-03-13,update lama,4.3.0,siapayaksu,ID,Negatif
+GRAFISNYA BIKIN SAKIT MATA LAMA-LAMA PUSING🤮,2,2026-03-13,Update 4.3.0,4.3.0,Assyuu,ID,Negatif
+Tadi udh dwonload kok ngulang lagi yaa paket terkuras dwonload nyaa ngulang padahal paket w banyak,1,2026-03-13,Gila,4.3.0,Uchegggg,ID,Negatif
+seson cuma 60 hari dikit dikt update banyak bug,1,2026-03-13,update kecepetan,4.3.0,Joetwang,ID,Negatif
+"Collab dengan DENNY CAKNAN dong, menarik sepertinya, lagu yang ""aku ngenteni, aku ngentenimu, hoooo""",5,2026-03-13,NEXT COLLAB,4.3.0,KALEM BANG,ID,Positif
+setelah update malah jadi sering patah patah gajelas banget jadi males mainnya tolong di perbaiki lagi dong,1,2026-03-13,update 4.3,4.3.0,yg bikin apk jelek,ID,Negatif
+bikin event gmna si tololll tancent,1,2026-03-13,event tolol,4.3.0,pubg tolol anjing binatang,ID,Negatif
+Gme ga jelas pringkat di hilangkan,1,2026-03-13,Ngmbek,4.3.0,Erwinalper10,ID,Negatif
+"pusing liatnya, plis balikin grafik awal dan klo bikin event niat dikit lah, ini main pubg berasa gada event nya, better kemaren pls, mana grafiknya bikin sakit mata, puyeng liatnya dah berasa epep, bukannya diupgrade biar player suka mlh didowgrade habis""an bgini, game sampah",1,2026-03-13,event sampah + grafik epep,4.3.0,baca woi baikin,ID,Negatif
+Benci bgt klo update makan waktu sehari klo di ios 😭😭😭,4,2026-03-13,Updatenya lama bgt klo di ios 💣,4.3.0,Kelincipink,ID,Positif
+Tolonglah jaringannya kek ktll klo main,1,2026-03-13,Jaringan ktl,4.3.0,B4b! Ngp3t,ID,Negatif
+Event ngga jelas lama2 eventnya ngga adaa yang bagus jelek semua,1,2026-03-13,Event,4.3.0,Dusyta,ID,Negatif
+Woyyy,4,2026-03-13,Beruk,4.3.0,Regi kontol,ID,Positif
+"tolonglah pubg kalo matching in tim itu yg ranknya gajauh beda, ini ace baru 5 udah di se tim in sm domi 30an keatas ga have fun sama sekali jadinya mainnya tolong diperbaiki sistem matching nya itu",2,2026-03-13,Matching tidak setara,4.3.0,lafsya,ID,Negatif
+"PUBG Mobile used to be one of the best battle royale games. Simple, intense, and skill-based.
+
+But now every update adds more unnecessary events and features that nobody asked for. Many old players came back because they missed the classic PUBG feeling, but these new events are ruining it again.
+
+Please remember why players loved PUBG in the first place. We don’t need more complicated events. We just want the classic PUBG experience back.",2,2026-03-13,Update and new event pubg,4.3.0,Erdin Labur18,ID,Negatif
+Tiap update di app store harus habis 3-4gb parahhhhhh,1,2026-03-13,Tai sedot kuota update,4.3.0,Muhrhtyf,ID,Negatif
+bukanya makin keren makin alay lu pubg jelek amat update kali ini,1,2026-03-13,jelek,4.3.0,Riku愛,ID,Negatif
+Fix the network issue,3,2026-03-13,Network,4.3.0,Alfazen99,ID,Netral
+so baddd:(,3,2026-03-13,UI design,4.3.0,lutpi ahmad,ID,Netral
+"jujur min gua kecewa sama update yang sekarang, menurut gua itu malah menyerupai game sebelah, padahal pubg sebelum nya itu punya ciri khas nya tersendiri uang seharusnya di pertahankan bukan malah meniru game lain, jujur gua semakin enggak suka soal update nya",1,2026-03-13,KECEWA DENGAN UPDATE,4.3.0,RE_popeye,ID,Negatif
+♥️♥️,5,2026-03-13,♥️,4.3.0,Rafa rayyan,ID,Positif
+i phone 12 still worth it,5,2026-03-12,amazing,4.3.0,Junn Ae,ID,Positif
+"We don't like the changes with interface.
+Please return the old version. Many people stop play game because of new update
+Please listen to the players J..""",1,2026-03-12,new update,4.3.0,powwhan,ID,Negatif
+Ko lama kali update nya padahal wifi lancar”aja,1,2026-03-12,Update,4.3.0,Neeeengff,ID,Negatif
+"“Kami tidak suka perubahan antarmuka. Tolong kembalikan versi lama. Banyak orang berhenti bermain game karena pembaruan baru
+
+Tolong dengarkan para pemain🙏🏻.”",1,2026-03-12,Kembalikan versi lama,4.3.0,ALIF AKBAR HARFAT,ID,Negatif
+Pubg Suda Menemani Aku Dari Kelas 6d Sapai Sekarang Aku kelas11 Tenkio Pubg🫶🏻🫶🏻🥹,5,2026-03-12,Tenkio Pubg Mobile🫶🏻🫶🏻🥹,4.3.0,Gelagio Nakfakar,ID,Positif
+"atmin, user interface yang baru bikin sakit mata min, plz ksh yg hitam, jgn putih, love you atmin n papa tencent",5,2026-03-12,UI,4.3.0,bahlilpop,ID,Positif
+sekali,5,2026-03-12,bagus,4.3.0,dapidaska,ID,Positif
+"pembaruan kali ini kelihatan lebih menurunkan kualitas gamenya, seperti icon tombol kontrol. kentang banget kesannya, sumpah jelek bangett. yg old lebih bagus",1,2026-03-12,update 4.3.0,4.3.0,player era tencent,ID,Negatif
+"Enakan even 4.2 kemarin sebenrnya,yg sekarang menang di grafik dan ada kartu bpjs,g ada terbang” kaya even sblm nya,tambah lagi grading,balikin even yg ada terbang” nya",3,2026-03-12,Di perbaiki,4.3.0,Nana5769@,ID,Netral
+"Tolong update terbaru banyak bug!, dan tolong kembalikan kembali fitur untuk request join/team di local id chat atau global!, dan graphic nya sangat membuat sakit mata! Tolong segera di perbaiki sudah banyak yang protes dari awal update sekarang",1,2026-03-12,Bug dan fitur,4.3.0,gameinikektaik,ID,Negatif
+Apdet loby nya jelek kek free fire,1,2026-03-12,Loby kurang mending yang lama,4.3.0,Farid azid,ID,Negatif
+"game haram spend uang kaga dapet dapet skin joker babii ah mager tai, haram haram",3,2026-03-12,pepek,4.3.0,yoishlah,ID,Netral
+Update 4.4 jelek kayak epep auto pensi,1,2026-03-12,Update 4.3,4.3.0,Cilsss31,ID,Negatif
+Perbaiki dong jangan cuman skin diurus sama gacha gacha,1,2026-03-12,Tampilan lobinya  parah,4.3.0,Cristianooo1234,ID,Negatif
+aneh baget tiap main pubg ngelag trus padahal hp 16pm jaringan bagus emg game nya aja yg jelek,1,2026-03-12,Game rusak,4.3.0,Bekdihee,ID,Negatif
+Gak bisa join di lokal yang3/4 yang -1 di lokal bisa bisa join apalah pubg rusak,1,2026-03-12,Bug,4.3.0,Push pake sendal,ID,Negatif
+"Makin hari makin berat,device iphone 13 macett anyiinggg",1,2026-03-12,Ngenttoooottttytt,4.3.0,Pletann,ID,Negatif
+Semoga komunitas pubgm makin kuat dan geme nya makin berkembang.,5,2026-03-12,Game fps terbaik,4.3.0,SuperM29,ID,Positif
+mohon dong pubg diperkceil penyimpanannya,1,2026-03-12,BINTANG SATU,4.3.0,PIPIT JAGO,ID,Negatif
+Donwlod lama bngt pdhl jaringan wifi lancar jayaa,1,2026-03-12,Lama,4.3.0,Ainzzu,ID,Negatif
+Tidak ada game yg se enak ini maon gila sih ini game,5,2026-03-12,Kocro,4.3.0,kocrooo,ID,Positif
+Event 4.3 ini terlalu banyak di rumahh ga logis kebanyakan era modern tolong balikin ke biasa aja lahhh event nya kurang bngt klo ke gini pensiii aja,1,2026-03-12,Bug,4.3.0,Rncun,ID,Negatif
+Bagusan free fire,5,2026-03-12,Bagus,4.3.0,Furry0099,ID,Positif
+"kalau pengen tetep rameh jangan update skin terus , berat buat hp , pemain nanti banyak yg uninstall",1,2026-03-12,berat,4.3.0,sutongboy,ID,Negatif
+Mantap Kaleee😍😍,5,2026-03-12,PUBG😍,4.3.0,Lologede,ID,Positif
+"update PUBG versi4,3 lama bgt",1,2026-03-12,gem asyu,4.3.0,o appstorasw,ID,Negatif
+game rosak,1,2026-03-12,game rosak,4.3.0,aguuzzz,ID,Negatif
+"Setelah update 4.3 di pubg mobile. Jadi gamplay ny kaku dan seperti free fire (ff) bnyk bug,dan setingan sensi yg sering berubah ubahnsendiri terimkasih. Saya hara agar segera di carikan solusi terkait update yg terbaru ini,jika tdk sgera d benari masih mempertahankan player dan device mempuni mk sbagian yg kebalikannya akan pindah game lain terimakasih dan semoga di dengarkn defeloper ny",3,2026-03-12,Pubg mengecewakan,4.3.0,Roger_049,ID,Netral
+"sumpah update an sekarang pubg jelek bgtttt,tolong dong krafton buat event yg bagus jgn yg ribet",5,2026-03-12,p,4.3.0,Putri2000,ID,Positif
+Ah gou,5,2026-03-12,Ah gou,4.3.0,A H G O U,ID,Positif
+"Banyak bug gk jelas gameplay jadi hancur cokk
+Game kemahalan dari segi skin sampai data nya buat player jadi sepi banayak bot",3,2026-03-12,Di update makin rusak,4.3.0,Bintang0,ID,Netral
+"Maksih banyak buat pembaruan nya
+Semoga lebih baik lagi",5,2026-03-12,PUGB,4.3.0,Jatsohn,ID,Positif
+"comback ni,baginda gw main lgi",5,2026-03-12,#Mainkan ryzn,4.3.0,Ilham adra,ID,Positif
+"Tolong setiap update versi kurangi hal yang tidak berguna agar meminimalisir ukuran APK, seakli update versi minimal 4GB, kami yang hp biasa bisa apa?",2,2026-03-12,Kapasitas Pembaruan,4.3.0,CakGeo,ID,Negatif
+Tolong kenapa kita sellalu downdload PUBG MOBILE terlalu lama padahal jaringan lancar,5,2026-03-12,Julyan 01,4.3.0,Julyan 01,ID,Positif
+"jelek tampilan yang sekarang, saya berharap ada downgrade kedepannya…",1,2026-03-12,jelek,4.3.0,Fbzxx_,ID,Negatif
+Makin kentang,5,2026-03-12,Makin kentang,4.3.0,Hilham firdaussi anugrah,ID,Positif
+hilangkan sistem grading min,5,2026-03-12,y,4.3.0,mmogi,ID,Positif
+"updatenya makin kesini makin burik makin jelek realistisnya udah ilang jelek banget update ini, tolong pihak pubg kembalikan realistisnya biar makin keren !",1,2026-03-12,VERSI 4.3 JELEK !,4.3.0,agung.pramana,ID,Negatif
+hm,5,2026-03-12,gabisa update 4.3 ngapa coba,4.3.0,Joko Purnowo,ID,Positif
+Sering bag,5,2026-03-12,Sering bag sinyal sering tinggi,4.3.0,mati'loby,ID,Positif
+"Gak jelas
+Masak ngedwld smpk 13 jam wkwkwk",1,2026-03-12,Game,4.3.0,Blader25,ID,Negatif
+Pubg terbaik bua gue,5,2026-03-12,PUBG,4.3.0,CALLEDW,ID,Positif
+ok,1,2026-03-12,nub,4.3.0,poo iko,ID,Negatif
+"sekarang gara sistem grading streamer pada ngendok, greding kalah sekali ke reset jadi males mau naikin tier rank nya. temen ku pada stres semua noh gara gara lu nambahin sistem grading-gradingan",1,2026-03-12,ga masok akal sistem grading,4.3.0,hertod01,ID,Negatif
+"Terlalu sering update dan ukuranNya sangat besar,Tinggal tunggu waktu bakal sepi ini game,",1,2026-03-12,Update,4.3.0,Xnxssawe,ID,Negatif
+Baik,1,2026-03-12,Oke,4.3.0,Nabhan shagufta,ID,Negatif
+"Untuk id gen 8 tidak berjalan dengan baik, sering force close",1,2026-03-12,Force close,4.2.0,Dayat24434,ID,Negatif
+8 tahun saya main pubg kasih m4 glacier kek atau skin m4 updred lain nya,1,2026-03-12,pelit,4.2.0,BTR•AziL17,ID,Negatif
+Tolong kbalikan akun saya 😭😭😭,5,2026-03-12,Pubg,4.2.0,Fixxyy,ID,Positif
+Gak bisa login di ios,1,2026-03-12,Susah login,4.2.0,Hsasasf,ID,Negatif
+Bagus,5,2026-03-12,Bagus,4.2.0,llllliiaan,ID,Positif
+Game paling seru mobile,5,2026-03-12,Nice,4.2.0,Fahri888,ID,Positif
+Game keren sangat menghibur dan membuat emosi naik sampai ubun ubun. Terimakasih pubg yang baik hati dan tidak sombong. Bismillah uc 10k😚,5,2026-03-12,Amazing,4.2.0,Miyu keren,ID,Positif
+"Aku sudah dari 2018 sampek sekarang main pubg tiap malam, begadang, makin lama makin sepi banyak yang pensi temen2 ku, saran min adain reward untuk live striming di  tiktok, biar main game tapi ada hadiah yang di kejar buat striming pemula",5,2026-03-11,Kenapa pubg sepi,4.2.0,Taufiqhendriana,ID,Positif
+ga bisa ngepron tencent euyy mental2 mulu,1,2026-03-11,bug,4.2.0,bebebudbhe insbeie,ID,Negatif
+gg,5,2026-03-11,mantep,4.2.0,HFXtoreto,ID,Positif
+"Game yang menemani aku dari 2018, nggak kerasa udah mau 7 tahun aja main game ini… happy aniversary yg ke 8 pubg mobile… tolong hoki ku di tambahin ya biar gak bolong” amat nih kantong",4,2026-03-11,Sayang,4.2.0,Riana Aoki,ID,Positif
+Game terbaik yang pernah saya mainkan,5,2026-03-11,The best game,4.2.0,mr error25,ID,Positif
+Hp iphone internet pke wiffi ngeleg mulu di in game tiap ketemu player ngeleg resusuli grafis dibikin rendah ttp aja gk ngaruh,1,2026-03-11,Leg,4.2.0,Yhfhijfevfrh,ID,Negatif
+there’s still cheater using aim bot etc in ranked at hi dominator 20-30,4,2026-03-11,Cheating issues,4.2.0,pqpksk,ID,Positif
+karena tidak bisa recall tim sulit naik rank bintang 1 ku kasi rating :),1,2026-03-10,Sulit naik rank sekarang,4.2.0,Maelele293,ID,Negatif
+masa wifi lancar pake data udh masih aja lemot wkwk kadang suka ke cancel,1,2026-03-10,MASALAH DOWNLOD,4.2.0,KUMAHA SIAAH,ID,Negatif
+Tolong lah pihak pubg mobile ini kenapa ah game top royale begini,1,2026-03-10,Ngak bisa login pke fb di ip,4.2.0,Reskyyy ikky,ID,Negatif
+Please fix force close in iphone 8,2,2026-03-10,Force close,4.2.0,Teapux,ID,Negatif
+game babi taii sgala ada grading monyet,1,2026-03-09,andreas67890,4.2.0,andreas67899,ID,Negatif
+"Dah ngaa seru maen pubg klo gini
+Gegara grading anjing ituu🫥😒😒🫥😒👯‍♀️",2,2026-03-09,Grading😒,4.2.0,Apamthor,ID,Negatif
+Game rusak,1,2026-03-08,Sensitivitas hancur karena bug,4.2.0,Juhrian,ID,Negatif
+Jangan taro batu,3,2026-03-08,Livik,4.2.0,Acep ff,ID,Netral
+Getting very hot on the iPhone 11pro and closing( crash and frame drop ),3,2026-03-08,Iphone 11pro,4.2.0,Mrpongobarbar,ID,Netral
+Pelit bgt sumpah mau hoki jg ak,1,2026-03-07,Pelit,4.2.0,Pipaw10,ID,Negatif
+Kenapa pas masuk donwload map atau apapun Malah gabisa,5,2026-03-07,Kesalahan,4.2.0,Luis cristovao,ID,Positif
+"hapus sistem greeding, jadi malas main karna harus di paksa ngendok",2,2026-03-06,Hapus sistem greeding,4.2.0,Rrrrrrrilz,ID,Negatif
+Akun saya udah hampir 4/tahun ga pernah dapat x suit sama enfor depul sama glazier,1,2026-03-06,AMSTAR bocil,4.2.0,Afyycosta,ID,Negatif
+Ngapain pake grading segala uda ada ur main rank buat have fun,1,2026-03-06,Kurangin grading nya,4.2.0,Hajah09,ID,Negatif
+Promotion match hapus lah kesusahan gw maun ranked nya team dongo semua apalagi random baru aja comeback setelah 2 tahun gak main lagi malah ada promotion match,1,2026-03-06,Game dongo,4.2.0,hdhshsgecvrhd,ID,Negatif
+"singkatnya gini, hp lama ilang + no telp nya, nah yang nyisa cuma email nya nah di akun ku itu ada verif ganda yang harus pake no dan gada opsi email, trus kalo di help center nya di tulis alamat emailnya malah tidak terdaftar padahal kalo login pake email + pw tinggal masukin verif ganda nya, tolong lah minn mau back ini",1,2026-03-05,akun gabisa balik,4.2.0,Grabyn,ID,Negatif
+"Bikin suami lupa waktu, komunikasi terganggu",1,2026-03-05,Kacau,4.2.0,IstriTersakiti,ID,Negatif
+"Pubg mobile tidak bisa melayani pemain dengan teliti , mana pemain yang sudah mempunyai akun sejak awal dari pada yang mencurigakan , sudah menghabiskan uang puluhan juta , tapi akun di retas tidak bisa atasi , kacau",1,2026-03-05,Akun di retas,4.2.0,Brownzkee,ID,Negatif
+kenapa sesah banget masuknya kalau login dari facebok,1,2026-03-05,susah masuk akun dari facebok,4.2.0,hsusjvdgslsns,ID,Negatif
+Kenapa Map Vikendi tidak bisa dimasuki atau bermain disitu?,1,2026-03-05,Masalah,4.2.0,piranhaaneh7,ID,Negatif
+Even rumah gak jelas. Mau perang apa buat rumah ???,1,2026-03-05,Even,4.2.0,Victor PUBGM,ID,Negatif
+Tolong ini bung gyro di betulin masa pas nembak gyro nya gk gerak,1,2026-03-04,Gyro pas nembak gk gerak,4.2.0,Bahwheje,ID,Negatif
+"Seriously, when making a game, why is there a grading system? It's basically a trash game.",1,2026-03-03,Game sampah,4.2.0,Apa luu,ID,Negatif
+Tolong dong saya gk main seminggu pas login lagi gk bisa. Dan keterang nya masalah web situs.. konek lwt FB,5,2026-03-03,Gk bisa login,4.2.0,iCoAg,ID,Positif
+gunanya greading buat apa puqi,1,2026-03-03,GAME BUAT STRES,4.2.0,pubgharam,ID,Negatif
+tolong dong hapus grading naik tier,2,2026-03-03,.,4.2.0,apasiapa,ID,Negatif
+hapuskan mode promosi,2,2026-03-02,p,4.2.0,marrrr917,ID,Negatif
+"Skin aja di perbanyakin bug dan cheater noh di atasin ngentot, gyroscop gua sampai bug, di belokin ke kanan malah kekiri tololl",1,2026-03-02,Pubg tolol,4.2.0,MrCobou,ID,Negatif
+Susah kali laga gradingnya woi,5,2026-03-02,Grading,4.2.0,Opallllll...,ID,Positif
+Bas kate ball,5,2026-03-02,Dear ball,4.2.0,Raynars,ID,Positif
+Misi gak jelas bikin susah naik rank jadi banyak yang ngendok,1,2026-03-02,Ngendok,4.2.0,Siodant,ID,Negatif
+"Jaringan sering hilang, bug jaringan padahal main game lain lancar",1,2026-03-02,Masalah lag,4.2.0,Trrashhh,ID,Negatif
+Grading gak guna bikin susah🤬,1,2026-03-01,.,4.2.0,Hapus iklan pinjol gak berguna,ID,Negatif
+Grading anjing,1,2026-03-01,Pubg kontl,4.2.0,Ml nop,ID,Negatif
+"Sistem greanding ga ada yg lebih susah lagi blok
+Aja",1,2026-03-01,Ametar,4.2.0,Amatrtasu,ID,Negatif
+busukkkk,1,2026-03-01,game bauk,4.2.0,reebahaqq,ID,Negatif
+mau conqu aja susah apalagi ini tambah grading,1,2026-03-01,grading ntenttttt,4.2.0,123mze1,ID,Negatif
+ini game klo jadi manusia mungkin uda gua nikahin,5,2026-03-01,pubg game halal,4.2.0,pudidskuy,ID,Positif
+Pke syarat harus tertentu. Jadi malas main,1,2026-03-01,Naik tier,4.2.0,ML lasyo,ID,Negatif
+Apasih Krafton ada sistem promotion gila gua lama lama main PUBG. Harus dong krafton jadi ga asik cok,1,2026-03-01,Gila,4.2.0,Finchijbi,ID,Negatif
+"Para pengembang tolong  perhatikan terkait tier up kami sangat kesulitan untuk aturan naik tier ini, ini sangat tidak masuk akal,gagal sekali semua  misi gagal total kasihan player yang sudah tinggal 1 ceklist ujung  ujungnya mengulang dari awal lagi, bukannya seru malah bikin emosi",5,2026-02-28,Mode rangked atau tier terlalu sulit,4.2.0,Bakri ombak,ID,Positif
+haha,1,2026-02-28,kocak,4.2.0,hipoookko,ID,Negatif
+Grading emang ga bisa lebih sulit ya krafton?😎😎,5,2026-02-28,Game terlalu gampang,4.2.0,DappJAWA,ID,Positif
+kasi hoki terus dong min kalo gacha tak dapat teyus,5,2026-02-28,GRACEQU,4.2.0,gwtsa,ID,Positif
+10GB only 1 map PLEASE NO,2,2026-02-28,storage 10GB only 1 map?!! are you serious?,4.2.0,🙏🏻🙏🏻🤕,ID,Negatif
+Woyyyy kasih hilang kasian itu grading,1,2026-02-28,Ur,4.2.0,Lagi lagi onggo,ID,Negatif
+"Tolong bot yang membawa senjata shoutgun dihilangkan,saya sering mati ditembak bot yang pakai shoutgun jadi makin lama makin malas main game ini.",2,2026-02-27,untuk PUBG mobile,4.2.0,sisjbdhsk,ID,Negatif
+"I lost my account, I don't know when and how it got lost. I've been playing this game for a long time, and today I was just about to play with my old account. But what ruined my mood was when I tried to log into my old account, suddenly I was asked to create a new nickname and character, which is like creating a new account. After that, I tried to find my old account nickname in the add friends section and found it, but I don't know how to get my old account back. Please help me",1,2026-02-27,i lost my old account,4.2.0,UlquiorraBaee,ID,Negatif
+MAMPUSSS KAU GAME SAMPAH OWKWOWKOWKW BANYAKIN IVENT GAK JELAS JADI GAME SAMPAH OWKWOWKWO…MAMPUS KALIAN GAK ADA LAGI YANG MINAT SAMA GAME PUBG KOCOK HAMMMA OWKWOWKWOWK.MAKAN TUH IVENT OWKWOWK…BANYAKIN IVENT MU YANG GAK JELAS ITU OWKWOWKWO.GAME TEMBAK TEMBAKAN KOK BISA TERBANG KEK KECOAK HAHAHAHAHH🤣,1,2026-02-27,MAMPUSSS UDAH SEPI GAME SAMPAH,4.2.0,spotfy anjinggg,ID,Negatif
+bagus ep ep. semenjak bukan tencent yg pegang pubg hancur cur cur cur. bagus ep ep sekarang.,1,2026-02-26,mual,4.2.0,alumni pubg,ID,Negatif
+"min tolong lh, gua gacha m4 api gk dapat,nabung peti klasik juga gak dapat m4 glacier, 5 tahun saya main game ini setia saya, tolong di berilah skin m4 nya,gua bukan orang kaya untuk gacha. Ini nickname ku 7iAMxMoccàCHM",5,2026-02-26,Minta bantuan ke atasan,4.2.0,Game kedis,ID,Positif
+gradingnya tolong di hilangkann banyak pemain yanggg maless main karena grading,1,2026-02-26,garding,4.2.0,unknowns ss ss,ID,Negatif
+"to login apk facebook maybe have any bug, if you can fix i give fou 5 stars",2,2026-02-26,bug,4.2.0,toyoahs,ID,Negatif
+hapus sistem grading minn,4,2026-02-26,stress,4.2.0,mhorkkk,ID,Positif
+botmu nge end an dancokk ii,1,2026-02-26,gatel,4.2.0,rocky nichol,ID,Negatif
+"Greding sekarang semakin susah naik tier ranked, dan tidak sesuai",1,2026-02-26,Report,4.2.0,Degun04,ID,Negatif
+rambo anjing,1,2026-02-26,pembaruan,4.2.0,pubg kontl,ID,Negatif
+ga mutu game,1,2026-02-26,sinyal ga jelas makin kesini hp fram mulu update ga jelas menuh”in memori,4.2.0,rezaaaad,ID,Negatif
+"login lewat twitter kenapa susah banget ya, udah nyoba cara apapun ga bisa bisa, buruk sekalii bugnya ga di benerin",1,2026-02-25,Masalah login,4.2.0,kongolining,ID,Negatif
+"grading mungkin bagi device menengah keatas cukup seru, tapi untuk device menengah kebawah kemungkinan besar merasa kesulitan untuk push grading, mungkin cukup di per lebar lagi untuk top grading. akibat grading player terlalu memikirkan rank dan rela menahan perang di dalam ruangan(ngendok). It's not fun👍",2,2026-02-25,sistem rank grading,4.2.0,abaayyy,ID,Negatif
+Laga Naik Tier 👎🏻👎🏻👎🏻👎🏻👎🏻,1,2026-02-25,Laga Naik Tier 👎🏻👎🏻👎🏻👎🏻👎🏻,4.2.0,tai taiiiiii,ID,Negatif
+Fitur granding-garanding tai hapus aja bodoh,1,2026-02-25,Hapus granding,4.2.0,T41-,ID,Negatif
+"Sejak awal download smpe masuk permainan gk ada suara sama sekali meskipun resource audio udh di download lengkap
+Bahkan udh login da logout berkali-kali ttp gk ngaruh
+Udh nyalain matiin sfx smpe audio ui jg ttp gk ada suara
+Sampah bgt",4,2026-02-25,Bug audio,4.2.0,Vgr502,ID,Positif
