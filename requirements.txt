@@ -1,0 +1,10 @@
+streamlit>=1.36.0
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+PySastrawi
+plotly
+openpyxl

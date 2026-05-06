@@ -1,0 +1,156 @@
+# Analisis Sentimen Ulasan PUBG Mobile - Naïve Bayes N-Gram
+
+Program Python untuk menganalisis sentimen ulasan PUBG Mobile di App Store menggunakan algoritma Naïve Bayes dengan fitur N-Gram. Data diambil langsung dari App Store (rating + review), dan bisa difilter berdasarkan versi aplikasi.
+
+## Arsitektur Sistem
+
+```mermaid
+flowchart LR
+    A[App Store Scraper] --> B[Data CSV]
+    B --> C[Preprocessing]
+    C --> D[N-Gram Feature Extraction]
+    D --> E[Naïve Bayes Classifier]
+    E --> F[Streamlit Dashboard]
+    F --> G[Filter per Versi]
+    F --> H[Visualisasi & Metrik]
+```
+
+## Proposed Changes
+
+### 1. Data Collection — Scraping App Store Reviews
+
+#### [NEW] scraper.py
+- Menggunakan library `app_store_scraper` untuk mengambil review PUBG Mobile (App ID: `1330123889`)
+- Mengambil data: **review text, rating (1-5), date, app version, username**
+- Rating digunakan sebagai **label otomatis**:
+  - Rating 1-2 → **Negatif**
+  - Rating 3 → **Netral**
+  - Rating 4-5 → **Positif**
+- Data disimpan ke `data/reviews_pubg.csv`
+- Bisa scrape dari beberapa negara (default: `id` untuk Indonesia)
+
+---
+
+### 2. Text Preprocessing
+
+#### [NEW] preprocessing.py
+- **Case folding** (lowercase)
+- **Cleaning** (hapus emoji, URL, mention, hashtag, angka, karakter spesial)
+- **Normalisasi slang** (kamus slang bahasa Indonesia: "gak"→"tidak", "bgt"→"banget", dll)
+- **Tokenisasi**
+- **Stopword removal** (daftar stopword bahasa Indonesia)
+- **Stemming** menggunakan `PySastrawi`
+
+---
+
+### 3. N-Gram Feature Extraction & Naïve Bayes Model
+
+#### [NEW] model.py
+- **TF-IDF Vectorizer** dengan N-Gram range yang bisa dikonfigurasi:
+  - Unigram (1,1)
+  - Bigram (2,2)
+  - Unigram + Bigram (1,2)
+  - Unigram + Bigram + Trigram (1,3)
+- **Multinomial Naïve Bayes** classifier dari scikit-learn
+- **Train/Test split** (80/20)
+- Evaluasi: **Accuracy, Precision, Recall, F1-Score, Confusion Matrix**
+- Menyimpan model & vectorizer yang sudah dilatih ke file pickle
+
+---
+
+### 4. Web Dashboard — Streamlit
+
+#### [NEW] app.py
+Dashboard interaktif dengan Streamlit, berisi:
+
+1. **Sidebar**:
+   - Upload CSV atau gunakan data default
+   - Filter berdasarkan **versi aplikasi** (dropdown multi-select)
+   - Pilih tipe N-Gram (Unigram, Bigram, Trigram, kombinasi)
+   - Tombol "Latih Model" dan "Prediksi"
+
+2. **Tab Eksplorasi Data**:
+   - Tabel data review dengan pagination
+   - Distribusi rating (bar chart)
+   - Distribusi sentimen (pie chart)
+   - Jumlah review per versi (bar chart)
+
+3. **Tab Preprocessing**:
+   - Tampilkan before/after preprocessing
+   - Word cloud per sentimen
+
+4. **Tab Model & Evaluasi**:
+   - Confusion Matrix (heatmap)
+   - Classification Report (Accuracy, Precision, Recall, F1)
+   - Perbandingan performa N-Gram (tabel)
+
+5. **Tab Prediksi**:
+   - Input teks manual → prediksi sentimen
+   - Tampilkan probabilitas per kelas
+
+---
+
+### 5. File Pendukung
+
+#### [NEW] requirements.txt
+```
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+PySastrawi
+app-store-scraper
+plotly
+```
+
+#### [NEW] data/slang_dict.json
+Kamus normalisasi kata slang bahasa Indonesia (150+ kata umum)
+
+#### [NEW] data/stopwords_id.txt
+Daftar stopword bahasa Indonesia
+
+---
+
+## Struktur Folder
+
+```
+analisis-sentimen-pubg-mobile/
+├── app.py                    # Streamlit dashboard (main entry)
+├── scraper.py                # Scraping review dari App Store
+├── preprocessing.py          # Text preprocessing pipeline
+├── model.py                  # Naïve Bayes + N-Gram model
+├── requirements.txt          # Dependencies
+├── data/
+│   ├── reviews_pubg.csv      # Data hasil scraping
+│   ├── slang_dict.json       # Kamus slang
+│   └── stopwords_id.txt      # Stopword Indonesia
+└── models/                   # Saved models (auto-generated)
+    ├── model.pkl
+    └── vectorizer.pkl
+```
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Bahasa review**: Program ini dirancang untuk menangani review **bahasa Indonesia** (stemming Sastrawi, slang dictionary ID). Apakah perlu juga support bahasa Inggris?
+
+> [!IMPORTANT]
+> **Label sentimen**: Rating 1-2 → Negatif, 3 → Netral, 4-5 → Positif. Apakah skema ini sudah sesuai, atau mau hanya 2 kelas (Positif/Negatif)?
+
+> [!IMPORTANT]
+> **Jumlah review**: Default akan scrape ~1000-2000 review. Mau berapa banyak?
+
+## Verification Plan
+
+### Automated Tests
+- Jalankan `python scraper.py` untuk verifikasi scraping berhasil
+- Jalankan `streamlit run app.py` untuk verifikasi dashboard berjalan
+- Cek output model: accuracy, confusion matrix
+
+### Manual Verification
+- Buka dashboard di browser, test filter per versi
+- Test input teks manual untuk prediksi sentimen
+- Verifikasi visualisasi (chart, wordcloud) tampil dengan benar
