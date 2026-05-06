@@ -33,7 +33,7 @@ LANGUAGES = {
         "train_btn": "🚀 Train Model",
         "compare_btn": "📊 Compare N-Grams",
         "language_label": "🌐 Language",
-        "copyright": "© 2025 — Naïve Bayes N-Gram Sentiment Analysis",
+        "copyright": "© 2025 — OctaLectzz - Naïve Bayes N-Gram Sentiment Analysis",
         # Hero banner
         "hero_title": "🎮 PUBG Mobile Sentiment Analysis",
         "hero_desc": "Interactive dashboard for analyzing App Store review sentiments using Naïve Bayes Classifier & N-Gram",
@@ -127,7 +127,7 @@ LANGUAGES = {
         "train_btn": "🚀 Latih Model",
         "compare_btn": "📊 Bandingkan N-Gram",
         "language_label": "🌐 Bahasa",
-        "copyright": "© 2025 — Naïve Bayes N-Gram Sentiment Analysis",
+        "copyright": "© 2025 — OctaLectzz - Naïve Bayes N-Gram Sentiment Analysis",
         # Hero banner
         "hero_title": "🎮 Analisis Sentimen PUBG Mobile",
         "hero_desc": "Dashboard interaktif untuk menganalisis sentimen ulasan App Store menggunakan Naïve Bayes Classifier & N-Gram",
